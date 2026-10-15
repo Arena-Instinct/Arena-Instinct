@@ -66,6 +66,7 @@ flowchart LR
 - **Windows** 10 or 11
 - **MTG Arena** in **windowed** or **borderless** mode (not exclusive fullscreen)
 - **Detailed Logs** switched on in Arena: *Options → Account → Detailed Logs (Plugin Support)*
+- **English** switch the language of the game to English
 - **Python 3** with Tkinter (included in the python.org installer)
 - **Java 17**: [Eclipse Temurin](https://adoptium.net/temurin/releases/?version=17) in its default folder, or set `JAVA_HOME`
 - **Forge runtime** in `forge_runtime/` (see [Building the Forge runtime](#building-the-forge-runtime))
@@ -73,7 +74,7 @@ flowchart LR
 ### Run it
 
 ```powershell
-python mtga_gui.py
+MGTA Advisor.exe
 ```
 
 1. Open MTG Arena and start a match.
