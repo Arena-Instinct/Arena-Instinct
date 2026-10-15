@@ -95,22 +95,6 @@ Auto play is opt-in and off by default, and it's designed to hand control back r
 - 👀 **Waits for the game:** it never clicks a card that's still animating or one Arena hasn't marked as usable.
 - ⌨️ **Mouse only:** input goes out through Win32 `SendInput`. Nothing is ever typed into the game.
 
-## 💻 Command line
-
-Every module also runs on its own:
-
-| Command | What it does |
-|---|---|
-| `python mtga_gui.py` | Control panel (add `--console` to keep the console for errors) |
-| `python mtga_overlay.py` | Overlay only. Flags: `--always`, `--cards`, `--extra`, `--auto`, `--simulate`, `--mouse-free` |
-| `python mtga_advise.py` | One recommendation for the live position (`--follow` to keep answering, `--simulate` to look ahead) |
-| `python mtga_state.py` | Print the live board (`--once`, `--json`, `--coords`) |
-| `python mtga_forge.py -o position.pzl` | Export the position as a Forge puzzle file |
-| `python mtga_quests.py` | Your daily quests and the best deck for each |
-| `python mtga_odds.py --draws 3` | Draw odds for your library |
-| `python mtga_account.py` | Decks, inventory, rank, quests and events (`--deck "name"`, `--json`) |
-| `python mtga_screen.py` | How lit up every card is right now |
-
 ## 🔧 Development
 
 ### Project layout
